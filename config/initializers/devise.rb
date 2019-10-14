@@ -8,7 +8,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  config.secret_key = 'abdc8843a7b79f250f26b143c6a4873e6abc343f2da99c68ce868e022d3ebde9ec20414ce8ec9495e212b521711d85c959c9c7d1ae9c0d42c13a782abd261bdb'
+  # config.secret_key = '4be50fe0fef38f5904bb2531d59609934b798be7743112a75e0b467a4f5d6f9ce4d45599f433d0f4c3fae8e89f4b2f9a24f23fe84872887d1beaafaf8e805d47'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -18,7 +18,7 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'no-reply@pmapp.com'
+  config.mailer_sender = 'pmapp@example.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -114,7 +114,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 11
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = 'f194f39ee98851fa4559604c70c7e0a514209f74bd96428b074a08d07f732cbc89eb53e6e7b46c57a1e20809f544c5b815491862887270a4fe2ea3314dd1a1b4'
+  # config.pepper = '6208cd2a8e28ba34172decc1371baa9edf94f0e9cdfdbcc45f76806b12c8af459fe11af44d9fd0eaba4283e15afeb4d6c7c6b2287d50febea51ec15350474363'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -145,7 +145,7 @@ Devise.setup do |config|
   # initial account confirmation) to be applied. Requires additional unconfirmed_email
   # db field (see migrations). Until confirmed, new email is stored in
   # unconfirmed_email column, and copied to email column on successful confirmation.
-  config.reconfirmable = true
+  config.reconfirmable = false
 
   # Defines which key will be used when confirming an account
   # config.confirmation_keys = [:email]
