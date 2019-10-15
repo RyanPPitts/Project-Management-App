@@ -261,7 +261,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
-  devise (~> 4.4)
+  devise
   figaro
   font-awesome-sass (~> 5.11.2)
   gravatar_image_tag (~> 1.2)
