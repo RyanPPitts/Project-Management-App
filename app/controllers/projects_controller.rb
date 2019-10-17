@@ -1,4 +1,5 @@
 class ProjectsController < ApplicationController
+
   before_action :set_project, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, only: [:edit, :update, :destroy]
 
@@ -17,6 +18,7 @@ class ProjectsController < ApplicationController
   def new
     @project = current_user.projects.build
     @team = Team.where('id = ?', current_user.team_id)
+    #query database to find the id of the team that matches the current users id
   end
 
   # GET /projects/1/edit

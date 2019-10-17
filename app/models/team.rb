@@ -1,4 +1,5 @@
 class Team < ApplicationRecord
+    #this is a many to many relationship since the team is related to the projects and users
     has_many :projects, dependent: :destroy
     has_many :users
 

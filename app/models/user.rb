@@ -4,6 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable, :confirmable #:trackable
 
+         #associates all the models - projects/teams and users
   has_many :projects
   has_many :teams
 

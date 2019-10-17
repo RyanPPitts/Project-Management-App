@@ -1,7 +1,7 @@
 class TeamsController < ApplicationController
   before_action :set_team, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, only: [:edit, :update, :destroy]
-
+ #allow for editng/updating and ablity to delete.
   # GET /teams
   # GET /teams.json
   def index
@@ -17,7 +17,7 @@ class TeamsController < ApplicationController
   def new
     @team = current_user.teams.build
     @user = current_user
-    
+    #allows to have variables in Vue - MVC
   end
 
   # GET /teams/1/edit
@@ -28,6 +28,7 @@ class TeamsController < ApplicationController
   # POST /teams.json
   def create
     @team = current_user.teams.build(team_params)
+    #saves team and the current users
     @team.users << current_user
 
     respond_to do |format|
@@ -71,7 +72,6 @@ class TeamsController < ApplicationController
       @team = Team.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def team_params
       params.require(:team).permit(:name, users_attributes: [:id, :name, :email, :_destroy])
     end
