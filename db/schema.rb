@@ -30,8 +30,7 @@ ActiveRecord::Schema.define(version: 20191014004739) do
     t.index ["trackable_id", "trackable_type"], name: "index_activities_on_trackable_id_and_trackable_type"
     t.index ["trackable_type", "trackable_id"], name: "index_activities_on_trackable_type_and_trackable_id"
   end
-  
-  #projects can be assigned to teams and users - this is the relationship
+
   create_table "projects", force: :cascade do |t|
     t.string "name"
     t.text "description"
@@ -41,7 +40,6 @@ ActiveRecord::Schema.define(version: 20191014004739) do
     t.integer "team_id"
   end
 
-  #creating the user id allows you to use the user_id tag for populating user information
   create_table "teams", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false

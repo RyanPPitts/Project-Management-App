@@ -7,7 +7,7 @@
 				<div class="level">
 					<div class="level-left">
 						<p>Created on
-							<%= verbose_date(@project.created_at) %> by <%= @project.user.name %> / Modified
+							<%= Date.current.to_s(@project.created_at) %> by <%= @project.user.name %> / Modified
 							<%= time_ago_in_words(@project.updated_at) %></p>
 					</div>
 					<div class="level-right">
