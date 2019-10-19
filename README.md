@@ -4,10 +4,28 @@
 
 I wanted to build an web application that would allow a team of developers to create, update and brainstorm upcoming projects.  A user will be able to securing logon or sign up using email confirmation to authenticate your identity.  After an user has signed up, the user will have the ability to create unique teams and projects.  Teams and projects can be assigned to each other due to the way their relationship is built.  In addition, an user can update and delete teams and projects.
 
+# User Experience
+
+The user experience should be simply and inuititve.  The application is rather simple in its build and can be viewed in mobile and desktop environments.  If an user accidently closes the application, they can reopen the website and be navigated directly to their dashboard.
+
 # Welcome Page
 
+When a user enters the website they will be greeted with a simple one page homepage.  The homepage has been slightly styled but the main focus is to get a user to sign up for the application.  Ideally the user will only see this page once since once they are signed up they are directed to their account dashboard.
 
-![enter image description here](https://i.ibb.co/vH2w6NY/screenshot-localhost-3000-2019-10-19-01-41-57.png")
+![enter image description here](https://i.ibb.co/vH2w6NY/screenshot-localhost-3000-2019-10-19-01-41-57.png)
+
+# Sign Up Page
+
+Upon clicking the "sign up" button on the homepage you will be sent to the Sign Up Page.  On this page an user can securing sign up for an account and have an email sent to them to confirm their account activation.
+
+![enter image description here](https://i.ibb.co/mRLTZDT/signup.png)
+
+# User Dashboard Page
+
+After confirming your email address, an user will create a password and be routed to their account dashboard.  The dashboard page includes a snapshot of their assigned projects and teams.  In addition, an user can see a list of the actions they have taken with projects/teams under the "Activity" section.
+
+![enter image description here](https://i.ibb.co/VHQLT9x/dashboard.png)
+
 
 The CampBase app was built with a Ruby on Rails backend.  Below is a list of the applications/gems used for this project
 
