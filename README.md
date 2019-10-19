@@ -6,6 +6,23 @@ CampBase (clever I know) is a project management tool that allows users to organ
 
 ![enter image description here](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/twilio-on-rails.width-808.png)
 
+Ruby on Rails is a development framework which gives web developers a structural framework for all the code they write. The Rails framework assist programmers to build websites and apps by abstracting and simplifying most of the repetitive tasks.
+
+Ruby is the programming language which is used alongside Rails. Ruby is to Rails as PHP is to Symfony and Zend, or as Python is to Django. The only appeal of Ruby towards the programmers lies beneath the elegance and concise of the language.
+
+Pros:
+Easy to build MVC (Model, Views and Controllers)
+Wide variety of 'gems' that can help you execute an web project quickly
+Syntax is easy to understand and initutive
+Great error and debugging with gems like Better Errors
+Large selection of open sourced libraries
+
+
+Cons: 
+
+Not a great experience for windows users. 
+Not a sought after skill in my job market
+
 
 
 # Bulma
