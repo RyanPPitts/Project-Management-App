@@ -42,48 +42,43 @@ Here are a couple resources that helped build out the Bulma CSS elements
 
 - Where to download gem file - https://rubygems.org/gems/bulma-rails/versions/0.0.4.1
 
-#Devise
+# Devise
 
 ![enter image description here](https://i.imgur.com/PCL91pN.png)
 
-Devise is a flexible authentication solution for Rails.  
+Devise is a flexible and popular authentication solution for Rails.  This was a great gem to get authorization implemented quickly into the CampBase application.  The package allows you to authenticate users and offers a wide variety of helper methods.
 
+Here is more information about the gem - https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication
 
-#MailCatcher
+# MailCatcher
 
 ![enter image description here](https://i.imgur.com/LG57d9y.jpg)
 
+MailCatcher runs a super simple SMTP server which catches any message sent to it to display in a web interface. Run mailcatcher, set your favourite app to deliver to smtp://127.0.0.1:1025 instead of your default SMTP server, then check out http://127.0.0.1:1080 to see the mail that's arrived so far.
 
-#Simple Form
+
+# Simple Form
 
 ![enter image description here](https://i.imgur.com/I3vovav.png)
 
+Simple Form aims to be as flexible as possible while helping you with powerful components to create your forms. The basic goal of Simple Form is to not touch your way of defining the layout, letting you find the better design for your eyes. Most of the DSL was inherited from Formtastic, which we are thankful for and should make you feel right at home.
 
-#Gravatar
+
+# Gravatar
 
 ![enter image description here](https://i.imgur.com/N5gu9af.png)
 
-
-#webpacker
-
-
-#Public Activity
+A configurable and documented Rails view helper for adding gravatars into your Rails application
 
 
-* Ruby version
+# Webpacker
 
-* System dependencies
+Webpacker makes it easy to use the JavaScript pre-processor and bundler webpack 4.x.x+ to manage application-like JavaScript in Rails. It coexists with the asset pipeline, as the primary purpose for webpack is app-like JavaScript, not images, CSS, or even JavaScript Sprinkles (that all continues to live in app/assets).
 
-* Configuration
+However, it is possible to use Webpacker for CSS, images and fonts assets as well, in which case you may not even need the asset pipeline. This is mostly relevant when exclusively using component-based JavaScript frameworks.
 
-* Database creation
 
-* Database initialization
+# Public Activity
 
-* How to run the test suite
+Public_activity provides easy activity tracking for your ActiveRecord, Mongoid 3 and MongoMapper models in Rails 3.0 - 5.0. Simply put: it records what has been changed or created and gives you the ability to present those recorded activities to users - in a similar way to how GitHub does it.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
