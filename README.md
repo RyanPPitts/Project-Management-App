@@ -1,12 +1,14 @@
 # Welcome to CampBase
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+CampBase (clever I know) is a project management tool that allows users to organize a team and create exciting new projects.  The app allows for secure login/sign up and the ablity to create, edit and delete teams and projects.  The app has been built on Ruby on Rails. 
 
-#Which programs were used and why
+# Ruby on Rails
 
-#Ruby on Rails
+![enter image description here](https://i.imgur.com/D2MQrdO.png)
 
-#Bulma
+
+
+# Bulma
 
 ![enter image description here](https://i.imgur.com/rZxrMv6.jpg)
 
