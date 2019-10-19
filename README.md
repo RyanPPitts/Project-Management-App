@@ -1,6 +1,8 @@
 # Welcome to CampBase
 
-CampBase (clever I know) is a project management tool that allows users to organize a team and create exciting new projects.  The app allows for secure login/sign up and the ablity to create, edit and delete teams and projects.  The app has been built on Ruby on Rails. 
+CampBase (clever I know) is a project management tool that allows users to organize a team and create exciting new projects.  The app allows for secure login/sign up and the ablity to create, edit and delete teams and projects.  
+
+The CampBase app was built with a Ruby on Rails backend.  Below is a list of the applications/gems used for this project
 
 # Ruby on Rails
 
@@ -23,21 +25,20 @@ Cons:
 Not a great experience for windows users. 
 Not a sought after skill in my job market
 
+To initiate your rails app you will need to open your command line and type "rails s" to start the server.
 
 
 # Bulma
 
 ![enter image description here](https://i.imgur.com/rZxrMv6.jpg)
 
-Bulma is a free, open source CSS framework based on Flexbox.  Designed for mobile, built with flexbox, modular and free.
+Bulma is a free, open source CSS framework with simple to understand syntax.  Designed for mobile, built with flexbox, modular and free.
 
-Very similar to bootstrap and was easy to integrate with the Bulma rails gem
-
-Syntax was easy to understand and made a lot of sense.  For example if you wanted your button to be bigger you just add the class = "button is-large"
+Very similar to bootstrap and was extremely easy to install using the Bulma gem file.    
 
 Here are a couple resources that helped build out the Bulma CSS elements
 
--Travesy Media - https://www.youtube.com/watch?v=IiPQYQT2-wg
+- Travesy Media - https://www.youtube.com/watch?v=IiPQYQT2-wg
 
 - Where to download gem file - https://rubygems.org/gems/bulma-rails/versions/0.0.4.1
 
