@@ -1,6 +1,12 @@
-# Welcome to CampBase
+# The CampBase Project
 
-CampBase (clever I know) is a project management tool that allows users to organize a team and create exciting new projects.  The app allows for secure login/sign up and the ablity to create, edit and delete teams and projects.  
+# Project Description
+
+I wanted to build an web application that would allow a team of developers to create, update and brainstorm upcoming projects.  A user will be able to securing logon or sign up using email confirmation to authenticate your identity.  After an user has signed up, the user will have the ability to create unique teams and projects.  Teams and projects can be assigned to each other due to the way their relationship is built.  In addition, an user can update and delete teams and projects.
+
+# Welcome Page
+
+<iframe src="https://drive.google.com/file/d/11aj0iXWkfVqwnyZJ5SBPc-Do7Ek-csxN/preview" width="640" height="480"></iframe>
 
 The CampBase app was built with a Ruby on Rails backend.  Below is a list of the applications/gems used for this project
 
