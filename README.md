@@ -8,8 +8,6 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 #Bulma
 
-![enter image description here](https://i.imgur.com/S950hSxs.png)
-
 
 Bulma is a free, open source CSS framework based on Flexbox.  Designed for mobile, built with flexbox, modular and free.
 
