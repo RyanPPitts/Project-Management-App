@@ -6,7 +6,7 @@ I wanted to build an web application that would allow a team of developers to cr
 
 # Welcome Page
 
-<iframe src="https://drive.google.com/file/d/11aj0iXWkfVqwnyZJ5SBPc-Do7Ek-csxN/preview" width="640" height="480"></iframe>
+![enter image description here](<img src="hhttps://drive.google.com/open?id=11aj0iXWkfVqwnyZJ5SBPc-Do7Ek-csxN">)
 
 The CampBase app was built with a Ruby on Rails backend.  Below is a list of the applications/gems used for this project
 
