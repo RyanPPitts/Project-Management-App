@@ -43,7 +43,9 @@
 //= require plugins/special_characters.min.js
 //= require plugins/url.min.js
 //= require plugins/video.min.js
-//= require_tree .
+//= require_tree 
+
+
 document.addEventListener('turbolinks:load', () => {
     $('#project_description').froalaEditor();
   });
