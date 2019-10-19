@@ -8,6 +8,9 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 #Bulma
 
+![enter image description here](https://i.imgur.com/fs96C4u.png)
+
+
 Bulma is a free, open source CSS framework based on Flexbox.  Designed for mobile, built with flexbox, modular and free.
 
 Very similar to bootstrap and was easy to integrate with the Bulma rails gem
@@ -29,15 +32,23 @@ Devise is a flexible authentication solution for Rails.
 
 #MailCatcher
 
-#Public Activity
+![enter image description here](https://i.imgur.com/LG57d9y.jpg)
+
 
 #Simple Form
 
+![enter image description here](https://i.imgur.com/I3vovav.png)
+
+
 #Gravatar
+
+![enter image description here](https://i.imgur.com/N5gu9af.png)
+
 
 #webpacker
 
 
+#Public Activity
 
 
 * Ruby version
