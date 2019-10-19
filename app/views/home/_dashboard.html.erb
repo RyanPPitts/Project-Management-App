@@ -1,11 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <!-- START NAV -->
+    <nav class="navbar is-white">
+        <div class="container">
+        </div>
+    </nav>
+    <!-- END NAV -->
+    <div class="container">
+        <div class="columns">
+            <div class="column is-3 ">
+                <aside class="menu is-hidden-mobile">
+                    <p class="menu-label">
+                        BaseCamp Dashboard
+                    </p>
+                    <ul class="menu-list">
+                        <li><a class="is-active">Teams</a></li>
+                        <li><a>Projects</a></li>
+                    </ul>
+                    <p class="menu-label">
+                        Administration
+                    </p>
+                    <ul class="menu-list">
+                        <li><a>Team Settings</a></li>
+                        <li>
+                            <a>Manage Your Team</a>
+                            <ul>
+                                <li><a>Members</a></li>
+                                <li><a>Add a member</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="column is-9">
+                <section class="hero is-info welcome is-small">
+                    <div class="hero-body">
+                        <div class="container">
+                            <h1 class="title">
+                                Hello, <%= current_user.name %> welcome back.
+                            </h1>
+                            <h2 class="subtitle">
+                                Ready to start that next great project?
+                            </h2>
+                        </div>
+                    </div>
+                </section>
+                <section class="info-tiles">
+                    <div class="tile is-ancestor has-text-centered">
+                        <div class="tile is-parent">
+                            <article class="tile is-child box">
+                                <p class="title"><%= @teams.count %></p>
+                                <p class="subtitle">Teams</p>
+                            </article>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child box">
+                                <p class="title"><%= @projects.count %></p>
+                                <p class="subtitle">Projects</p>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+        <div class="column border-bottom ph4 pv4">
+			<div class="level">
+				<div class="level-item has-text-centered">
+					<h3 class="title is-5">My Amazing Projects <span class="tag is-rounded"><%= @projects.count %></span></h3>
+				</div>
+				<div class="level-right">
+					<p class="field">
+						<%= link_to new_project_path, class: 'button is-small' do %>
+							<span class="icon is-small has-text-link"><i class="fa fa-plus"></i></span>
+						<% end %>
+					</p>
+				</div>
+			</div>
+			<% @projects.each do |project| %>
+				<div class="content pb4">
+					<p class="title is-3">
+						<%= link_to project.name, project %>
+					</p>
+					<p class="subtitle is-6">
+						<%= link_to project.team.name, project.team %>
+					</p>
+					<p class="f6">Created by: <%= project.user.name %></p>
+				</div>
+			<% end %>
+		
+		</div>
+
+		<div class="column border-bottom ph4">
+			<div class="level">
+				<div class="level-item has-text-centered">
+					<h3 class="title is-5">My Teams <span class="tag is-rounded"><%= @teams.count %></span></h3>
+				</div>
+				<div class="level-right">
+					<p class="field">
+						<%= link_to new_team_path, class: 'button is-small' do %>
+							<span class="icon is-small has-text-link"><i class="fa fa-plus"></i></span>
+						<% end %>
+					</p>
+				</div>
+			</div>
+			<% @teams.each do |team| %>
+				<div class="content pb4">
+					<p class="title is-4">
+						<%= link_to team.name, team %>
+					</p>
+					<p class="subtitle is-6"><%= team.users.count %> Members</p>
+					<span class="f6"><%= safe_join(team.users.map { |user| user.name }, ', ') %></span>
+				</div>
+			<% end %>
+
+		</div>
+
+		<div class="column ph4">
+			<h3 class="title is-4 level-item has-text-centered">Activity</h3>
+			<ul class="list">
+				<%= render_activities(@activities) %>
+			</ul>
+		</div>
+	
+
+                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script async type="text/javascript" src="../js/bulma.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!--
 <section class="section pt3">
-	<p class="title is-5 border-bottom pb3 has-text-centered">Welcome <%= current_user.name %> </p>
+	<p class="title is-5 border-bottom pb3 has-text-centered">Hey <%= current_user.name %> your back.  Lets do it!</p>
 	<div class="columns">
 
 		<div class="column border-right ph4">
 			<div class="level">
 				<div class="level-left">
-					<h3 class="subtitle is-5">My Projects <span class="tag is-rounded"><%= @projects.count %></span></h3>
+					<h3 class="subtitle is-5">My Amazing Projects <span class="tag is-rounded"><%= @projects.count %></span></h3>
 				</div>
 				<div class="level-right">
 					<p class="field">
@@ -64,4 +209,13 @@
 		</div>
 	
 	</div>
-</section>
+</section> -->
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Ryan Pitts Ruby on Rails Project</strong> by <a href="https://github.com/RyanPPitts/Project-Management-App">Ryan Pitts</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+    </p>
+  </div>
+</footer>

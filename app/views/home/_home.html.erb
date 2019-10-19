@@ -1,32 +1,65 @@
-<section class="hero is-link">
-	<div class="hero-body">
-		<div class="container has-text-centered">
-			<h1 class="title">
-				Welcome to CampBase.com
-			</h1>
-			<h2 class="subtitle">
-				CampBase is a project management tool that allows you to manage your web development team's projects and information.  This app has been built in Ruby in Rails and was project 3 for General Assembly SEI.
-			</h2>
-		</div>
-	</div>
-</section>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BaseCamp.com</title>
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.7.5-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/landing.css">
+</head>
+
+<body>
+    <section class="hero is-info is-medium">
+        <div class="hero-head">
+            </div>
+
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="column is-6 is-offset-3">
+                        <h1 class="title">
+                        Welcome to CampBase.com
+                        </h1>
+                        <h2 class="subtitle">
+						CampBase is a project management tool that allows you to manage your web development team's projects and information.  This app has been built in Ruby in Rails and was project 3 for General Assembly SEI.
+                        </h2>                       
+                    	<a class="buttons"><%= link_to ' Sign Up Today!', new_user_registration_path, class: 'button is-link is-white' %>
+                       
+                    	</a>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <script async type="text/javascript" src="../js/bulma.js"></script>
+</body>
+
 <section class="section">
 	<div class="container">
 		<div class="columns">
-			<div class="column is-7">
-				<div class="content">
+					<div class="column is-7">
 					<h3 class="title is-3">So why is CampBase.com a great app?</h3>
-					<p>CampBase offers secure sign-in and login for multiple users.  Perfect for the small team looking to plan internal projects and generate future ideas.</p>
-					<p>Create, view, edit and remove users, teams and projects with ease.  No limit on the amount of projects, users or teams you can create for your web development team.</p>
-					<p>Use the project editor to add text, pictures and detailed information for your entire team.  Each team member can contribute to the project and the details.</p>
-				</div>
-			</div>
-			<div class="column is-4 is-offset1">
-				<h4 class="subtitle is-4">Don't forget to sign up!</h4>
-				<%= link_to 'Sign Up', new_user_registration_path, class: 'button is-link is-outlined' %>
-				<h4 class="subtitle is-4">Already a member?  Sign in to your account</h4>
-				<%= link_to 'Log In', new_user_registration_path, class: 'button is-link is-outlined' %>
-			</div>
+						<p>CampBase offers secure sign-in and login for multiple users.  Perfect for the small team looking to plan internal projects and generate future ideas.</p>
+						<p>Create, view, edit and remove users, teams and projects with ease.  No limit on the amount of projects, users or teams you can create for your web development team.</p>
+						<p>Use the project editor to add text, pictures and detailed information for your entire team.  Each team member can contribute to the project and the details.</p>
+					</div>
+						<div class="column">
+							<h4 class="content is-medium title is-4">Don't forget to sign up!</h4>
+							<div class="buttons"> <%= link_to 'Sign Up', new_user_registration_path, class: 'button is-link is-outlined'  %> </div>
+							<h4 class="content is-medium title is-4 "> Already a member?  Sign in to your account</h4>
+							<div class="buttons"><%= link_to 'Log In', new_user_session_path, class: 'button is-link is-outlined' %></>
+						</div>
 		</div>
 	</div>
 </section>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Ryan Pitts Ruby on Rails Project</strong> by <a href="https://github.com/RyanPPitts/Project-Management-App">Ryan Pitts</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+    </p>
+  </div>
+</footer>
