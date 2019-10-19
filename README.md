@@ -4,7 +4,7 @@ CampBase (clever I know) is a project management tool that allows users to organ
 
 # Ruby on Rails
 
-![enter image description here](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjt3Yy87qflAhULHzQIHUFhC4oQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.twilio.com%2Fblog%2F2016%2F05%2Fcalling-rails-5-getting-started-with-twilio-on-rails.html&psig=AOvVaw0V08AoV0p5XHT9AO6mCt9z&ust=1571558616798775)
+![enter image description here](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/twilio-on-rails.width-808.png)
 
 
 
