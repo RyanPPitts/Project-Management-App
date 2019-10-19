@@ -22,6 +22,11 @@ Here are a couple resources that helped build out the Bulma CSS elements
 
 #Devise
 
+![enter image description here](https://i.imgur.com/PCL91pN.png)
+
+Devise is a flexible authentication solution for Rails.  
+
+
 #MailCatcher
 
 #Public Activity
