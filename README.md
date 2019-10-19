@@ -2,7 +2,7 @@
 
 # Project Description
 
-I wanted to build an web application that would allow a team of developers to create, update and brainstorm upcoming projects.  A user will be able to securing logon or sign up using email confirmation to authenticate your identity.  After an user has signed up, the user will have the ability to create unique teams and projects.  Teams and projects can be assigned to each other due to the way their relationship is built.  In addition, an user can update and delete teams and projects.
+I wanted to build an web application that would allow a team of developers to create, update and brainstorm upcoming projects.  A user will be able to securing logon or sign up using email confirmation to authenticate your identity.  After an user has signed up, the user will have the ability to create unique teams and projects.  Teams and projects can be assigned to each other due to the way their relationship is built.  In addition, an user can update and delete teams and projects.  This app was directly inspired by the team at WebCrunch.  
 
 # User Experience
 
@@ -139,7 +139,7 @@ Public_activity provides easy activity tracking for your ActiveRecord, Mongoid 3
 
 I was in quite a bind when I started this project since I had an awful experience trying to make Windows work with the Ruby environment.  After ditching the Windows PC, I had a much smoother time building the app in the Mac OS environment.
 
-- WebCrunch - Great tutorial on Ruby on Rails and using the gems listed above.  YouTube page - https://www.youtube.com/user/webcrunchblog
+- WebCrunch - Great tutorial on Ruby on Rails and using the gems listed above.  Most of this project was coded along with the Rails tutorial on YouTube.  YouTube page - https://www.youtube.com/user/webcrunchblog
 
 - Traversy Media - Several videos outlining Bulma, gems and ruby on rails.  YouTube page - https://www.youtube.com/user/TechGuyWeb
 
