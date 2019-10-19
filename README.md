@@ -135,7 +135,9 @@ Public_activity provides easy activity tracking for your ActiveRecord, Mongoid 3
 
 - Public Activity GitHub page - https://github.com/chaps-io/public_activity
 
-I got inspiration and knowledge from the following resources. 
+# Resources
+
+I was in quite a bind when I started this project since I had an awful experience trying to make Windows work with the Ruby environment.  After ditching the Windows PC, I had a much smoother time building the app in the Mac OS environment.
 
 - WebCrunch - Great tutorial on Ruby on Rails and using the gems listed above.  YouTube page - https://www.youtube.com/user/webcrunchblog
 
